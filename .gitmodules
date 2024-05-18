@@ -1,0 +1,13 @@
+[submodule "arm_ws/src/kalman_arm_controller"]
+	path = arm_ws/src/kalman_arm_controller
+	url = git@github.com:agh-space-systems-rover/kalman_arm_controller.git
+[submodule "arm_ws/src/kalman_arm_moveit_config"]
+	path = arm_ws/src/kalman_arm_moveit_config
+	url = git@github.com:agh-space-systems-rover/kalman_arm_moveit_config.git
+[submodule "submodules/kalman_robot"]
+	path = submodules/kalman_robot
+	url = git@github.com:agh-space-systems-rover/kalman_robot.git
+[submodule "arm_ws/src/bio_ik"]
+	path = arm_ws/src/bio_ik
+	url = https://github.com/PickNikRobotics/bio_ik.git
+	branch = ros2
