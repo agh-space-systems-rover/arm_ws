@@ -17,8 +17,9 @@ jobs:
       name: Run commands
       id: runcmd
       with:
-          arch: aarch64
-          distro: ubuntu_latest
+          arch: none
+          distro: none
+          base_image: arm64v8/ubuntu:24.04
 
           # Not required, but speeds up builds
           githubToken: ${{ github.token }}
