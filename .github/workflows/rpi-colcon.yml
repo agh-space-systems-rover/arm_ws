@@ -37,9 +37,6 @@ jobs:
             artifact_name: git-rpi-build
             workspace: ${GITHUB_WORKSPACE}
 
-          # The shell to run commands with in the container
-          shell: /bin/sh
-
           install: |
             sudo apt update
             sudo apt install -y software-properties-common
