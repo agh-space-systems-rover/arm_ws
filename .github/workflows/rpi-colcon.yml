@@ -28,6 +28,8 @@ jobs:
           setup: |
             mkdir -p "${PWD}/artifacts"
 
+          shell: /bin/bash
+
           # Mount the artifacts directory as /artifacts in the container
           dockerRunArgs: |
             --volume "${PWD}/artifacts:/artifacts"
